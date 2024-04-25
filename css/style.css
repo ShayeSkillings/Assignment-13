@@ -6,12 +6,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
+    background-color: lightgrey;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: green;
+    color: black;
     padding: 20px 0;
     position: fixed;
     top: 0;
@@ -30,7 +30,7 @@ nav {
 
 .logo {
     font-size: 24px;
-    color: #fff;
+    color: darkgreen;
     font-weight: bold;
 }
 
@@ -44,17 +44,17 @@ nav {
 }
 
 .nav-links a {
-    color: #fff;
+    color: gray;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #ffd700; /* Change color on hover */
+    color: gray
 }
 
 .content {
-    padding: 100px 20px; /* Add space for fixed header */
+    padding: 100px 20px; 
     text-align: center;
 }
 
